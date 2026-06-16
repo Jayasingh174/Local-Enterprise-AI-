@@ -1,0 +1,2 @@
+{'type': 'chat', 'use_rag': True, 'message': 'Hello', 'retrieved_count': 0, 'answer': 'Hi! How can I assist you today?', 'ts': 1770989600.8599505}
+{'type': 'tts', 'file': 'tts-2b4b461b-562f-40cc-8c30-aaf75d322625.wav', 'text': 'Hello world', 'ts': 1770989699.5402293}

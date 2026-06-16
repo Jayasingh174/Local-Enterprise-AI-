@@ -1,0 +1,39 @@
+<!doctype html> 
+<html> 
+<head> 
+  <meta charset="utf-8" /> 
+  <title>Local Enterprise AI</title> 
+  <link rel="stylesheet" href="/app/web/style.css">
+  <script src="/app/web/app.js"></script>
+</head> 
+<body> 
+  <div class="wrap"> 
+    <h1>Local Enterprise AI (FastAPI)</h1> 
+ 
+    <div class="row"> 
+      <button id="btnIngest">Ingest Docs (PDFs in data/docs)</button> 
+      <label class="chk"> 
+        <input type="checkbox" id="useRag" checked /> 
+        Use RAG (answer from PDFs) 
+      </label> 
+    </div> 
+    <div class="card"> 
+      <h2>Chat</h2> 
+      <textarea id="msg" placeholder="Ask something..."></textarea> 
+      <div class="row"> 
+        <button id="btnSend">Send</button> 
+        <button id="btnSpeak">Speak Answer</button> 
+      </div> 
+<pre id="out"></pre> 
+</div> 
+<div class="card"> 
+<h2>Voice</h2> 
+<div class="row"> 
+<button id="btnRec">Record</button> 
+<button id="btnStop" disabled>Stop</button> 
+</div> 
+<p><b>Transcript:</b> <span id="tx"></span></p> 
+</div> 
+</div>
+</body> 
+</html>
