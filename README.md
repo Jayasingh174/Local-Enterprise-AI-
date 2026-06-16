@@ -18,4 +18,4 @@ Open: http://127.0.0.1:8001
 ## Use 
 1) Put PDFs in data/docs/ 
 2) Click "Ingest Docs" 
-3) Ask questions via chat or voice
+3) Ask questions via chat or voice# Local-Enterprise-AI-  
